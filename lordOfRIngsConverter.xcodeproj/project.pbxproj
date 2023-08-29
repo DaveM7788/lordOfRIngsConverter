@@ -11,6 +11,12 @@
 		E578419E2A9DA6F500054991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578419D2A9DA6F500054991 /* ContentView.swift */; };
 		E57841A02A9DA6F600054991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E578419F2A9DA6F600054991 /* Assets.xcassets */; };
 		E57841A32A9DA6F600054991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57841A22A9DA6F600054991 /* Preview Assets.xcassets */; };
+		E5AA90772A9E8A940045B82D /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA90762A9E8A940045B82D /* ExchangeInfo.swift */; };
+		E5AA90792A9E8D140045B82D /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA90782A9E8D140045B82D /* ExchangeRate.swift */; };
+		E5AA907B2A9E91B60045B82D /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA907A2A9E91B60045B82D /* SelectCurrency.swift */; };
+		E5AA907D2A9E940C0045B82D /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA907C2A9E940C0045B82D /* CurrencyIcon.swift */; };
+		E5AA907F2A9E99550045B82D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA907E2A9E99550045B82D /* Currency.swift */; };
+		E5AA90812A9EA3400045B82D /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA90802A9EA3400045B82D /* IconGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E578419D2A9DA6F500054991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E578419F2A9DA6F600054991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E57841A22A9DA6F600054991 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5AA90762A9E8A940045B82D /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		E5AA90782A9E8D140045B82D /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		E5AA907A2A9E91B60045B82D /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
+		E5AA907C2A9E940C0045B82D /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
+		E5AA907E2A9E99550045B82D /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		E5AA90802A9EA3400045B82D /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				E578419B2A9DA6F500054991 /* lordOfRIngsConverterApp.swift */,
 				E578419D2A9DA6F500054991 /* ContentView.swift */,
+				E5AA90762A9E8A940045B82D /* ExchangeInfo.swift */,
+				E5AA90782A9E8D140045B82D /* ExchangeRate.swift */,
+				E5AA907A2A9E91B60045B82D /* SelectCurrency.swift */,
+				E5AA90802A9EA3400045B82D /* IconGrid.swift */,
+				E5AA907C2A9E940C0045B82D /* CurrencyIcon.swift */,
+				E5AA907E2A9E99550045B82D /* Currency.swift */,
 				E578419F2A9DA6F600054991 /* Assets.xcassets */,
 				E57841A12A9DA6F600054991 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AA90812A9EA3400045B82D /* IconGrid.swift in Sources */,
+				E5AA90792A9E8D140045B82D /* ExchangeRate.swift in Sources */,
+				E5AA907B2A9E91B60045B82D /* SelectCurrency.swift in Sources */,
+				E5AA90772A9E8A940045B82D /* ExchangeInfo.swift in Sources */,
 				E578419E2A9DA6F500054991 /* ContentView.swift in Sources */,
 				E578419C2A9DA6F500054991 /* lordOfRIngsConverterApp.swift in Sources */,
+				E5AA907F2A9E99550045B82D /* Currency.swift in Sources */,
+				E5AA907D2A9E940C0045B82D /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
